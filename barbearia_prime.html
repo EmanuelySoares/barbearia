@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia Prime</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#111;
+      color:white;
+    }
+
+    header{
+      background:#000;
+      padding:20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    header h1{
+      color:#d4af37;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin-left:20px;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#d4af37;
+    }
+
+    .banner{
+      height:90vh;
+      background:url('https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=1200&auto=format&fit=crop') center/cover;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    .banner-content{
+      background:rgba(0,0,0,0.7);
+      padding:40px;
+      border-radius:10px;
+    }
+
+    .banner h2{
+      font-size:50px;
+      margin-bottom:15px;
+      color:#d4af37;
+    }
+
+    .banner p{
+      font-size:18px;
+      margin-bottom:20px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 25px;
+      background:#d4af37;
+      color:black;
+      text-decoration:none;
+      font-weight:bold;
+      border-radius:5px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:white;
+    }
+
+    section{
+      padding:60px 20px;
+      text-align:center;
+    }
+
+    .servicos{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+      margin-top:30px;
+    }
+
+    .card{
+      background:#1c1c1c;
+      padding:30px;
+      width:250px;
+      border-radius:10px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:scale(1.05);
+    }
+
+    .card h3{
+      color:#d4af37;
+      margin-bottom:10px;
+    }
+
+    footer{
+      background:#000;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Barbearia Prime</h1>
+
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Serviços</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="banner-content">
+      <h2>Seu estilo começa aqui</h2>
+      <p>Cortes modernos, barba e atendimento premium.</p>
+      <a href="#" class="btn">Agendar Horário</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nossos Serviços</h2>
+
+    <div class="servicos">
+
+      <div class="card">
+        <h3>Corte Masculino</h3>
+        <p>Estilo moderno e acabamento profissional.</p>
+      </div>
+
+      <div class="card">
+        <h3>Barba</h3>
+        <p>Modelagem e cuidado completo para sua barba.</p>
+      </div>
+
+      <div class="card">
+        <h3>Sobrancelha</h3>
+        <p>Design masculino com precisão e qualidade.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Sobre Nós</h2>
+    <p>
+      A Barbearia Prime oferece experiência premium,
+      conforto e profissionais especializados para
+      deixar você sempre no estilo.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Barbearia Prime - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
